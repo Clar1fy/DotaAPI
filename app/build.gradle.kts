@@ -11,6 +11,7 @@ plugins {
 
     // Navigation SafeArgs
     id("androidx.navigation.safeargs.kotlin")
+
     // Hilt
     id("com.google.dagger.hilt.android")
 
@@ -56,7 +57,7 @@ dependencies {
     implementation(libs.android.core)
 
     // Activity
-    implementation(libs.fragment.activity)
+    implementation(libs.activity.activity)
 
     // Fragment
     implementation(libs.fragment.fragment)
