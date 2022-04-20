@@ -7,5 +7,5 @@ import retrofit2.http.GET
 interface HeroesApiService {
 
     @GET(HEROES_FETCH)
-    fun fetchHeroes(): List<HeroDto>
+    suspend fun fetchHeroes(): List<HeroDto>
 }
